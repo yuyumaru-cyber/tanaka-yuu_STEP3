@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>世界一甘いお店</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+  <div class="wrapper">
+     
+    <header>
+       <h2>世界一甘いお店</h2>
+    </header>
+   <div class="container">
+    <nav>
+     <ul>
+        <li><a href="#section1">トップ</a></li>
+        <li><a href="#section2">新着情報</a></li>
+        <li><a href="#section3">おすすめスイーツ</a></li>
+        <li><a href="#section4">お問い合わせ</a></li>
+     </ul>
+   </nav>
+
+   <main>
+    <section id="section4">
+      <form>
+        <table border="4">
+          <tr>
+            <th>お名前</th>
+            <td><input type="text" name="name"></td>
+          </tr>
+
+          <tr>
+            <th>お近くのお店</th>
+            <td>
+              <select name="area">
+                <option>北海道・東北</option>
+                <option>関東</option>
+                <option>中部</option>
+                <option>関西</option>
+                <option>中国・四国</option>
+                <option>九州</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <th>電話</th>
+            <td><input type="text" name="tel"></td>
+          </tr>
+
+          <tr>
+            <th>電話番号</th>
+            <td><input type="text" name="phone"></td>
+          </tr>
+
+          <tr>
+            <th>メールアドレス</th>
+            <td><input type="email" name="email"></td>
+          </tr>
+
+          <tr>
+            <th>お問い合わせ種別</th>
+            <td>
+              <input type="radio" name="type" value="product"> 商品について
+              <input type="radio" name="type" value="staff"> 従業員について
+            </td>
+          </tr>
+
+          <tr>
+            <th>お問い合わせ内容</th>
+            <td>
+              <textarea name="message" rows="5" cols="30"
+                placeholder="詳細を入力してください"></textarea>
+            </td>
+          </tr>
+        </table>
+
+        <div class="submit-area">
+           <input type="submit" value="送信">
+        </div>
+      </form>
+    </section>
+   </main>
+ 
+   </div>
+
+   <footer>
+
+   </footer>
+  </div>
+</body>
+</html>

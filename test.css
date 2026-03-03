@@ -1,0 +1,81 @@
+body {
+ background-color: aliceblue;
+ color: black;
+ margin: 0;
+ padding: 0;
+}
+
+.wrapper {
+ width: 900px;
+ margin: 0 auto;
+ background-color: aliceblue;
+}
+
+main, section, header, nav, footer {
+    padding: 0;
+} 
+
+header {
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+  width: 300px;
+  background-color: rgb(29, 64, 121);
+  color: aliceblue;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+nav ul {
+  list-style: disc;
+}
+
+nav a {
+  color: aliceblue;
+}
+
+main {
+  flex: 1;
+  padding: 30px;  
+}
+
+table {
+  border-collapse: collapse;
+  width: 600px;
+  background-color: whitesmoke;
+}
+
+th, td {
+  border:2px solid #999;
+  padding: 8px;
+}
+
+th {
+  background-color: whitesmoke;
+  width: 180px;
+  text-align: left;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.submit-area {
+    text-align: right;
+}
+
+footer {
+  padding: 30px;
+  background-color: rgb(92, 115, 146);
+}
