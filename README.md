@@ -1,1 +1,0 @@
-# tanaka-yuu_STEP3
