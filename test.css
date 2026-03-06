@@ -16,6 +16,7 @@ main, section, header, nav, footer {
 } 
 
 header {
+  height: 40;
   background-color: dodgerblue;
   color: white;
   text-align: center;
@@ -29,6 +30,7 @@ header {
 }
 
 nav {
+  height: 100;
   width: 300px;
   background-color: rgb(29, 64, 121);
   color: aliceblue;
@@ -45,6 +47,7 @@ nav a {
 }
 
 main {
+  height: 100;
   flex: 1;
   padding: 30px;  
 }
@@ -56,7 +59,7 @@ table {
 }
 
 th, td {
-  border:2px solid #999;
+  border:4px solid #999;
   padding: 8px;
 }
 
@@ -76,6 +79,7 @@ input[type="submit"] {
 }
 
 footer {
+  height: 40;
   padding: 30px;
   background-color: rgb(92, 115, 146);
 }
